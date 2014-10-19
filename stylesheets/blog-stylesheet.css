@@ -1,0 +1,41 @@
+#header {
+          background-color:black;
+          color:white;
+          width: 100%;
+
+        /}
+#navigation {
+            background-color:black;
+            color:white;
+            vertical-align: bottom;
+          /}
+#main {
+          background-color: lightgrey;
+          color:black;
+          width: 100%;
+      /}
+
+#blogsection {
+          background-color: white;
+          color:grey;
+          width: 100%;
+
+      /}
+
+#blogdate {
+             font-family: cursive;
+             font-size: 3em;
+             color: black;
+          /}
+
+#blogtext {
+            font-family: cursive;
+            font-size: 1.5em;
+          /}
+
+#footer{
+         background-color:black;
+          color:white;
+          width: 100%;
+      /}
+
