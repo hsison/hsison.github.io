@@ -9,6 +9,8 @@
             color:white;
             vertical-align: bottom;
           /}
+
+span{display:block}
 #main {
           background-color: lightgrey;
           color:black;
