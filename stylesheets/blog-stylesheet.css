@@ -1,43 +1,86 @@
-#header {
-          background-color:black;
-          color:white;
+
+  html {
           width: 100%;
+          margin: 0;
+          height: 100%;
+        }
 
-        /}
-#navigation {
-            background-color:black;
-            color:white;
-            vertical-align: bottom;
-          /}
 
-span{display:block}
-#main {
-          background-color: lightgrey;
-          color:black;
-          width: 100%;
-      /}
+body {
+        width:100%;
+        font-family:georgia;
+        text-align: center;
+        margin: none;
 
-#blogsection {
-          background-color: white;
-          color:grey;
-          width: 100%;
 
-      /}
+      }
 
-#blogdate {
-             font-family: cursive;
-             font-size: 3em;
-             color: black;
-          /}
+banner {
+           width:100%;
+           display: inline-block;
+           background:white;
+           background-size: cover;
+           text-align: center;
 
-#blogtext {
-            font-family: cursive;
-            font-size: 1.5em;
-          /}
+        }
 
-#footer{
-         background-color:black;
-          color:white;
-          width: 100%;
-      /}
+
+header h3{
+            text-align: center;
+            text-shadow: 1px 1px 1px grey;
+            margin-left: 20%;
+            margin-bottom: 5%;
+            width: 700px;
+            font-size: 2.5em;
+            color: black;
+            font-family:georgia;
+
+
+        }
+
+header {
+          font-size: .4em;
+          background-color:none;
+          font color:black;
+          font-variant: small-caps;
+          text-align: center;
+          max-width: 100%;
+          height: auto;
+          width: auto\15; /* ie8 */
+
+
+
+nav {
+            display: inline-block;
+            text-align: center;
+            font-variant: small-caps;
+            font-family: georgia;
+            color:black;
+
+          }
+
+blogentry {
+            font-size: 1.1em;
+            font-family:georgia;
+            line-height: 1em;
+
+
+blogentry h2 {
+                font-size: 1.5em;
+                line-height: 1em;
+                font-family: georgia;
+              }
+
+blogentry h3 {
+                font-family: georgia;
+                font-size: 1em;
+                line-height: .75em;
+
+              }
+
+p {
+    font-family: georgia;
+}
+
+
 
