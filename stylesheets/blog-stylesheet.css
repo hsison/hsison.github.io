@@ -18,6 +18,7 @@ body {
   font-size: 20px;
 }
 h1 {
+  text-align: center;
   color:#1C1710;
   letter-spacing: 5px;
   line-height: 1px;
@@ -34,6 +35,7 @@ nav ul{
 }
 
 h2 {
+      text-align: center;
       color:#eaecd6;
 }
 
