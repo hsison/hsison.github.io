@@ -14,7 +14,7 @@ body {
   font-family: serif;
   font-variant: small-caps;
   color:#3B3121;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 h1 {
@@ -88,7 +88,7 @@ li {
 }
 
 #blog {
-    text-align: center;
+    text-align: left;
     color:#CCAA76;
     margin-left: 300px;
     margin-right: 300px;
