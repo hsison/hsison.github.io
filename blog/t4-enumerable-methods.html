@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel ="stylesheet" type="text/css"href="../stylesheets/blog-stylesheet.css">
+  <title>Hannah Sison</title>
+</head>
+
+<body>
+  <h1>|My Blog|</h1>
+  <banner>
+    <img src="http://www.wall-artz.net/uploads/6/6/9/9/6699594/s985184945120669777_p42_i1_w726.jpeg"width="650" height="350">
+  </banner>
+
+  <nav>
+    <ul>
+
+      <li><a href="home.html">Home</a></li>
+      <li><a href="aboutme.html">AboutMe</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="/Cheatsheets/">Cheatsheets</a></li>
+      <li><a href="/Connect/">Connect</a></li>
+
+    </ul>
+  </nav>
+
+  <div id="blog">
+
+    <h2>Transforming Arrays Using #map</h2>
+    <p>
+      What is #map? <br>
+      Map allows us to iterate over every element in the array. <br>
+      Whatever we return in that block gets added to a new array.
+    </p>
+
+    <h2>Lets start with a basic array.</h2>
+
+    <p>
+      Obviously there’s nothing crazy interesting about a plain ol’ array right?
+    </p>
+
+    <h2>Let’s see map in action:</h2>
+    <p>
+      Let’s say you want to make every element in the array a string?<br>
+      Using map in this example would be easy-peasy! <br>Here are two different ways you could do this.
+    </p>
+
+    <p>
+      arr.map { | num | num.to_s }<br>
+
+      OR<br>
+
+      arr.map(&:to_s)<br>
+
+      The outcome would look like this:<br>
+
+      ⇨ [“1”, “2”, “3” , “4”, “5”, “6”, “7”, “8”, “9”, “10”]
+      <p>
+
+        <h2>Here’s another sweet example using map:</h2>
+        <p>
+          Want to find out how many elements are even vs. odd?<br>
+          Here we go!<br>
+
+          arr.map(&:odd?)<br>
+
+          The outcome would look like this:<br>
+          ⇨ [true, false, true, false, true, false, true, false, true, false]
+        </p>
+
+        <h2>Now that you know how to use #map, go out into the world and #map away!</h2>
+
+      </div>
+
+
+      <div id="footer">
+
+
+        <a href="https://www.facebook.com/thehannahsison"><img src= "https://cdn3.iconfinder.com/data/icons/pyconic-icons-3-1/512/facebook-circle-512.png" style="width:75px;height:75px;"></a>
+
+        <a href="https://twitter.com/hannah_sison"><img src="http://maltaexclusiverentacar.com/img/twittericon.png"style="width:75px;height:75px;"</a>
+
+        <a href="https://www.linkedin.com/profile/view?id=187119530&trk=nav_responsive_tab_profile_pic"><img src="http://www2.psd100.com/ppp/2013/09/2601/linkedin-icon-0926005838.png"style="width:75px;height:75px;"</a>
+
+        <a href="http://instagram.com/hannahsison"><img src="http://xclusivescard.com/wp-content/themes/xclusive/images/socialIcons/instagram.png"style="width:75px;height:75px"</a>
+
+        <a href="https://plus.google.com/u/0/116092912555051146317/posts"><img src="http://cdn.flaticon.com/png/256/24171.png"style="width:75px;height:75px;"</a>
+
+
+      </div>
+
+
+
+    </body>
+
+    </html>
