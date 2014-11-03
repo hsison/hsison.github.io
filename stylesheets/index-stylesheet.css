@@ -46,7 +46,8 @@ h2 {
 
 
 h3 {
-  color:#C1A16B;
+  color:#3D5244;
+  text-transform: vertical;
 }
 
 a:link {
@@ -113,4 +114,5 @@ object{
     margin-right: 300px;
 
 }
+
 
