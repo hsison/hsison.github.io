@@ -35,37 +35,45 @@
     <h2>Lets start with a basic array.</h2>
 
     <p>
+      <div style="text-align:left; width:50%; margin:auto; color:white; font-style: italic;border: 1px dotted black; padding: 20px;">
       Ex: arr = [1,2,3,4,5,6,7,8,9,10] <br>
-      Obviously there’s nothing crazy interesting about a plain ol’ array right?
+    </div>
+      Obviously there's nothing crazy interesting about a plain ol' array right?
     </p>
 
-    <h2>Let’s see map in action:</h2>
+    <h2>Let's see map in action:</h2>
     <p>
-      Let’s say you want to make every element in the array a string?<br>
+      Let's say you want to make every element in the array a string?<br>
       Using map in this example would be easy-peasy! <br>Here are two different ways you could do this.
     </p>
 
     <p>
+      <div style="text-align:left; width:50%; margin:auto; color:white; font-style: italic;border: 1px dotted black; padding: 20px;">
       arr.map { | num | num.to_s }<br>
+
 
       OR<br>
 
       arr.map(&:to_s)<br>
+      </div>
 
       The outcome would look like this:<br>
 
-      ⇨ [“1”, “2”, “3” , “4”, “5”, “6”, “7”, “8”, “9”, “10”]
+      <div style="text-align:left; width:50%; margin:auto; color:white; font-style: italic;border: 1px dotted black; padding: 20px;">
+      ["1", "2", "3" , "4", "5", "6", "7", "8", "9", "10"]
       <p>
-
-        <h2>Here’s another sweet example using map:</h2>
+        </div>
+        <h2>Here's another sweet example using map:</h2>
         <p>
           Want to find out how many elements are even vs. odd?<br>
           Here we go!<br>
+          <div style="text-align:left; width:50%; margin:auto; color:white; font-style: italic;border: 1px dotted black; padding: 20px;">
 
           arr.map(&:odd?)<br>
 
           The outcome would look like this:<br>
-          ⇨ [true, false, true, false, true, false, true, false, true, false]
+          [true, false, true, false, true, false, true, false, true, false]
+        </div>
         </p>
 
         <h2>Now that you know how to use #map, go out into the world and #map away!</h2>
