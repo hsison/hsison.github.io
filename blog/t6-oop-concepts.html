@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel ="stylesheet" type="text/css"href="../stylesheets/blog-stylesheet.css">
+  <title>Hannah Sison</title>
+</head>
+
+<body>
+  <h1>|My Blog|</h1>
+
+  <div class="banner">
+  </div>
+  <nav>
+    <ul>
+
+      <li><a href="home.html">Home</a></li>
+      <li><a href="aboutme.html">AboutMe</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="/Connect/">Connect</a></li>
+
+    </ul>
+  </nav>
+
+<div id="blog">
+
+<h2>Classes vs Modules</h2>
+
+<p>Before you dive into this super cool blog post about Classes and Modules you should already have a pretty good understanding of what classes are and how they operate. If you don't, no worries! I gotcha covered. Check out my previous post <a href= "http://hsison.github.io/blog/t5-ruby-classes.html">Sass, A$%, and Classes</a> and then come on back.</p>
+
+
+<h2>What in the world are modules?</h2>
+<p>
+  No, no, it's not a disease.<br>
+  The first thing I always do when I'm unsure about anything in life is Google it. I'll give you a moment to do so.
+  (....insert elevator music here....)<br>
+  If you've already continued reading because you're too lazy to look it up here you go. <br>
+  According to Google a Module is a set of standardized parts or independent units that can be used to construct a more complex structure, such as an item of furniture or a building. <br>
+
+  For all of the manly men out there, you can think of module as all of the parts you need to build a car, i.e., an engine, brakes, tires, etc.
+  For my ladies, you can think of it as a makeup. So mascara, eyeliner, eye shadow, and lipstick would all be part of the module and the complex structure would be your face.
+  Okay maybe that was a terrible second example. Anyways, you get the point. Moving on.
+
+</p>
+
+<h2>What do modules have to do with classes? </h2>
+
+<p>
+  Modules are very much like classes in the way they're written which makes it pretty easy to understand if you already have a good grip on classes. The difference between the two is that modules can't create instances and can't have subclasses. They're simply used to simply store things.<br>
+
+  Check out this sweet example:<br>
+
+  <div style="text-align:left; width:50%; margin:auto; color:white; font-style: italic;border: 1px dotted black; padding: 20px;">
+
+  module MyLibrary<br>
+  FAVE_BOOK = "Book about Hannah"<br>
+  end<br>
+  </div>
+
+  Did you notice that the module syntax is really close to class syntax?<br>
+  Just like class names, the module names are written using
+  <a href="http://en.wikipedia.org/wiki/CamelCase">Capitalized CamelCase</a>.<br>
+
+  Another difference is modules don't contain variables. Because variables are subject to change we don't want to include them in our modules. In modules we use constants(because they typically stay the same)! Ruby constants are written using all caps and are separated with underscores if there are multiple words like this:<br>
+
+  <div style="text-align:left; width:50%; margin:auto; color:white; font-style: italic;border: 1px dotted black; padding: 20px;">
+
+    Ex: HANNAH_ROCKS  <br></div>
+</p>
+
+<h2>Let's get weird with it!</h2>
+<p>
+  One of the main purpose of modules in Ruby is to separate methods and constants into a specifically named space, which is actually called 'namespacing'. Real clever right? <br>
+  Namespacing is a way of bundling logically related objects together. It allows classes or modules with conflicting names to co-exist while avoiding collisions*BAM*. <br>
+
+  No I'm not rambling here's the point.<br>
+  Modules can actually hold classes. Hold on let me just say that again, Modules can actually hold classes.Instead of me trying to explain what that means to you, I'll show you.<br>
+
+  <div style="text-align:left; width:50%; margin:auto; color:white; font-style: italic;border: 1px dotted black; padding: 20px;">
+  Example:
+    module Hannah<br>
+      class Rocks<br>
+        def initialize<br>
+          @cool = 100<br>
+        end<br>
+      end<br>
+    end<br>
+
+    cool_rocks = Hannah :: Rocks.new<br>
+    lame_rocks = Rocks.new<br>
+
+    p cool_rocks.class<br>
+    p lame_rocks.class<br>
+  </div>
+</p>
+<p>
+  Did you see that? It doesn't affect our class at all! We have two classes parallel to one another because we've namespaced the Rocks class under the Hannah module. That weird double colon thingy '::' is a constant lookup operator that ONLY looks up Rock in the Hannah module.
+
+  I told you we were going to get weird. The only reason we're allowed to do all this cool jazz in Ruby is because we namespaced.<br>
+
+  </p>
+
+  <p>Being nerdy is my favorite thing to do.
+  </p>
+
+
+</div>
+
+
+    <div id="footer">
+
+
+          <a href="https://www.facebook.com/thehannahsison"><img src= "https://cdn3.iconfinder.com/data/icons/pyconic-icons-3-1/512/facebook-circle-512.png" style="width:75px;height:75px;"></a>
+
+          <a href="https://twitter.com/hannah_sison"><img src="http://maltaexclusiverentacar.com/img/twittericon.png"style="width:75px;height:75px;"</a>
+
+          <a href="https://www.linkedin.com/profile/view?id=187119530&trk=nav_responsive_tab_profile_pic"><img src="http://www2.psd100.com/ppp/2013/09/2601/linkedin-icon-0926005838.png"style="width:75px;height:75px;"</a>
+
+          <a href="http://instagram.com/hannahsison"><img src="http://xclusivescard.com/wp-content/themes/xclusive/images/socialIcons/instagram.png"style="width:75px;height:75px"</a>
+
+          <a href="https://plus.google.com/u/0/116092912555051146317/posts"><img src="http://cdn.flaticon.com/png/256/24171.png"style="width:75px;height:75px;"</a>
+
+
+    </div>
+
+
+
+    </body>
+
+    </html>
