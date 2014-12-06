@@ -10,10 +10,7 @@
   padding-left:140px;
   opacity: 0.8;
   border: double;
-
-
 }
-
 
 body {
   background-color:#878775;
