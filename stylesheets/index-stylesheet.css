@@ -104,6 +104,13 @@ li {
 
 }
 
+object{
+        text-align: center;
+        margin-left: 300px;
+    margin-right: 300px;
+
+}
+
 #blog-block {
     text-align: center;
     background:black;
@@ -129,12 +136,42 @@ line-height: 250%;
 font-variant: small-caps;
 }
 
+.divider {
+color: #a5adb0;
+width: 100%;
+margin-top: 2em;
+margin-bottom: 2em;
+}
 
+hr {
+display: block;
+-webkit-margin-before: 0.5em;
+-webkit-margin-after: 0.5em;
+-webkit-margin-start: auto;
+-webkit-margin-end: auto;
+border-style: inset;
+border-width: 1px;
+}
 
-object{
-        text-align: center;
-        margin-left: 300px;
-    margin-right: 300px;
+#post-header {
+margin-left: 1em;
+}
+
+#thumb {
+text-align: center;
+float: left;
+margin-right: 2em;
+width: 45%;
+height: 210px;
+padding-right: 20px;
+}
+
+h5 {
 
 }
 
+img {
+max-height: 100%;
+max-width: 100%;
+height: auto;
+}
