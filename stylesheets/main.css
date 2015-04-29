@@ -5,7 +5,7 @@ body{
 /*Navigation Bar*/
 
 .nav{
-  background-color: rgb(48, 35, 35);
+  background-color: rgba(36, 25, 25, 1);
   text-align: center;
   border-top-left-radius:8px;
   border-top-right-radius:8px;
@@ -62,7 +62,7 @@ body{
 }
 
 .laugh_picture{
-   background-image: url('../images/laugh_sepia.jpg');
+   background-image: url('../images/laugh_color.jpg');
    background-repeat:no-repeat;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -109,7 +109,7 @@ body{
   text-align: center;
   max-width: 100%;
   height: 100%;
-  background-color: rgb(48, 35, 35);
+  background-color: rgba(36, 25, 25, 1);
   padding: 1%;
 }
 
@@ -118,7 +118,7 @@ body{
   text-align: center;
   max-width: 100%;
   height: 100%;
-  /*background-color: rgb(48, 35, 35);*/
+  /*background-color: rgba(36, 25, 25, 1);*/
   padding: 1%;
 }
 
@@ -154,7 +154,7 @@ h2{
 }
 
 .social_media  {
-  background-color: rgb(48, 35, 35);
+  background-color: rgba(36, 25, 25, 1);
   word-spacing: 1.5vw;
   padding: 1%;
   text-align: center;
