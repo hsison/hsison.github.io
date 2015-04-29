@@ -28,6 +28,9 @@ body{
 .kitty_picture{
   background-image: url('../images/kitty.jpg');
   background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-attachment: scroll;
   padding-bottom: 57%;
@@ -37,6 +40,9 @@ body{
 .top_picture{
    background-image: url('../images/hannah_picture.jpg');
    background-repeat:no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
    background-size: cover;
    background-attachment: scroll;
    padding-bottom: 45%;
@@ -46,6 +52,9 @@ body{
 .walk_picture{
    background-image: url('../images/walk.jpg');
    background-repeat:no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
    background-size: cover;
    background-attachment: scroll;
    padding-bottom: 45%;
@@ -55,6 +64,9 @@ body{
 .laugh_picture{
    background-image: url('../images/laugh_sepia.jpg');
    background-repeat:no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
    background-size: cover;
    background-attachment: scroll;
    padding-bottom: 45%;
@@ -64,6 +76,9 @@ body{
 .portfolio_picture{
   background-image: url('../images/portfolio.jpg');
   background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-attachment: scroll;
   padding-bottom: 45%;
@@ -73,6 +88,9 @@ body{
 .resume_picture{
   background-image: url('../images/resume.jpg');
   background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-attachment: scroll;
   padding-bottom: 45%;
