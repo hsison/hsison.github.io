@@ -1,5 +1,4 @@
 body{
-  width:100%;
   font-family: 'Lora', serif;
 }
 
@@ -30,17 +29,16 @@ body{
   background-image: url('../images/kitty.jpg');
   background-repeat:no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  height:50em;
+  background-attachment: scroll;
+  padding-bottom: 57%;
   margin:auto 0;
-  width:100%;
 }
 
 .top_picture{
    background-image: url('../images/hannah_picture.jpg');
    background-repeat:no-repeat;
    background-size: cover;
-   background-attachment: fixed;
+   background-attachment: scroll;
    padding-bottom: 45%;
    margin:auto 0;
 }
@@ -49,40 +47,36 @@ body{
    background-image: url('../images/walk.jpg');
    background-repeat:no-repeat;
    background-size: cover;
-   background-attachment: fixed;
+   background-attachment: scroll;
    padding-bottom: 45%;
    margin:auto 0;
-   width:100%;
 }
 
 .laugh_picture{
    background-image: url('../images/laugh_sepia.jpg');
    background-repeat:no-repeat;
    background-size: cover;
-   background-attachment: fixed;
+   background-attachment: scroll;
    padding-bottom: 45%;
    margin:auto 0;
-   width:100%;
 }
 
 .portfolio_picture{
   background-image: url('../images/portfolio.jpg');
   background-repeat:no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   padding-bottom: 45%;
   margin:auto 0;
-  width:100%;
 }
 
 .resume_picture{
   background-image: url('../images/resume.jpg');
   background-repeat:no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   padding-bottom: 45%;
   margin:auto 0;
-  width:100%;
 }
 
 .headline{
@@ -95,21 +89,27 @@ body{
 .about_me{
   word-spacing: 1%;
   text-align: center;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   background-color: rgb(48, 35, 35);
   padding: 1%;
-  position:relative;
 }
 
 .coming_soon{
   word-spacing: 1%;
   text-align: center;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
-  background-color: rgb(48, 35, 35);
+  /*background-color: rgb(48, 35, 35);*/
   padding: 1%;
-  position:relative;
+}
+
+.coming_soon h1{
+  color:black;
+}
+
+.coming_soon h2{
+  color:black;
 }
 
 h1{
@@ -138,7 +138,7 @@ h2{
 .social_media  {
   background-color: rgb(48, 35, 35);
   word-spacing: 1.5vw;
-  padding-bottom: 5%;
+  padding: 1%;
   text-align: center;
   border-bottom-left-radius:8px;
   border-bottom-right-radius:8px;
@@ -146,7 +146,7 @@ h2{
 
 .social_media img{
   width:5vw;
-  height:10vh;
+  height:5vw;
 }
 
 h3 {
