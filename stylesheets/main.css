@@ -86,15 +86,8 @@ body{
 }
 
 .resume_picture{
-  background-image: url('../images/resume.jpg');
-  background-repeat:no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: scroll;
-  padding-bottom: 45%;
-  margin:auto 0;
+  padding-left: 30%;
+  padding-right: 20%;
 }
 
 .headline{
