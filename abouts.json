@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "Art"
+    "details": {
+      "I love to paint, draw, and sew. I also had a temporary business where I sold handmade childrens outfits."
+    }
+    "image": {
+      "small": "/images/kitty.jpg",
+      "large": "/images/computer.jpg",
+    }
+  }
+]
